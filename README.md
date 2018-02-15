@@ -24,11 +24,11 @@ Thank you so so much for wanting to contribute! Let it be known that you don't h
 
 ### Submitting Issues
 So you've noticed a problem with the TeX file. First of all--thanks for looking and finding it! The fact that you noticed means you're attentive! Go you! Next up is for you to report that issue. First you're gonna want to scroll to the top of the page and click on the issues tab. Before you click the green "New issue" button, check to make sure that an issue has not already been created for the same thing. Now that you're on the new issue creation page, the title of the issue should be as follows: 
->> Title of Homework / Problem number
+> Title of Homework / Problem number
 
 So, for example:
 
->> HW03 / 3.3 #4
+> HW03 / 3.3 #4
 
 Then in the description, go ahead and describe what the issue is with as much detail as necessary to a TeXer can fix it as soon as possible so everyone can reap the benefits! After that, click the "Submit new issue" button and you're all good to go!
 
