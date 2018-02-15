@@ -45,7 +45,7 @@ So basically the idea is to create a platform where people can all work on makin
 8. If you PR is denied, find out why and make the necessary changes
 
 If none of that made sense to you, fear not, below is a very narrowly scoped tutorial of how to get your files onto this repository:
->> TODO: write the narroly scoped tutorial. It is currently late o'clock and I still need to do lin algs T_T. For now just email me a zipped folder that includes at least both the pdf and the tex files for the homework and the hmcpset.cls and I'll push it up within a few hours of you sending me the email. 
+> TODO: write the narroly scoped tutorial. It is currently late o'clock and I still need to do lin algs T_T. For now just email me a zipped folder that includes at least both the pdf and the tex files for the homework and the hmcpset.cls and I'll push it up within a few hours of you sending me the email. 
 
 ### Formatting
 As far as formatting is concerned, I personally don't really care how you do it as long as each problem has enough space to work with (beggars can't be choosers ya know #kanye). Check out HW02 if you are curious. That's currently the model we're using but if you think we should switch to something different feel free to let me know.
