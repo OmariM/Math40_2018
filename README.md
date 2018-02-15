@@ -3,7 +3,9 @@
 ## Description / Author's Note
 This is a repository for LaTeX files for Math40 homework. This repo is designed to be a place where all TeXers alike can come together and crank out beautiful looking homework files so that we don't have to get points taken off for not copying over the problems properly. That being said, things don't always work as designed and I'm still a GitHub **noob** so if you have any questions or suggestions about how we can make this better by all means please hit me up and we can work something out!
 
-More importantly--a lot of people put in a fair amount of time and effort into doing this for little recognition and no monetary compensation. That means they're doing this out of the charity of their own hearts. If you get the chance, **please please, PLEASE** extend your thanks to them. By doing this, they're really helping everyone out :)
+Also, these files are made by humans. Sometimes there are mistakes. If there are--**please** let us know by making an issue in the issues tab. That being said, you as the user are responsible for making sure that the homework that you do is correct. That means if something is wrong with the TeX file, whether it be a wrong number or a missing problem, it is your responsibility to take care of that issue. Do **not** blame the person that TeXed up the homeork if there is a problem with **your** homework.
+
+Lastly and most importantly--a lot of people put in a fair amount of time and effort into doing this for little recognition and no monetary compensation. That means they're doing this out of the charity of their own hearts. If you get the chance, **please please, PLEASE** extend your thanks to them. By doing this, they're really helping everyone out :)
 
 -- Omari Matthews HMC '21 //
   omatthews@g.hmc.edu
@@ -18,19 +20,32 @@ Hello! Congratulations on not procrastinating and deciding to start your Lin Alg
 4. Choose your file destination
 
 ## Read This If You Want To Contribute!
-Thank you so so much for wanting to contribute! Let it be known that you don't have to be fluent in writing LaTeX to help out! We still need people to help review the files so that we can minimize the amount of effors in the file. With that, please be sure to read this. If anything is unclear or you have any questions, please don't hesitate to email me so we can get things sorted out quickly.
+Thank you so so much for wanting to contribute! Let it be known that you don't have to be fluent in writing LaTeX to help out! We still need people to point out issues so that we can minimize the amount of effors in the file. With that, please be sure to read this. If anything is unclear or you have any questions, please don't hesitate to email me so we can get things sorted out quickly.
 
-### General Workflow
-So basically the idea is to create a platform where people can all work on making pretty math homework pdfs so that we can get them out to the people quickly. I'm still very new to GitHub so any help with optimizing this workflow would be extremely helpful. Things will sort of work like this:
-1. Once a new assignment gets released. The first person to start TeXing the file will push it to master. From here on out, this will be the file that gets edited. And this goes for the rest of the workflow too but **as a rule of thumb**, we want to minimize the amount of (and ideally have no) duplication and maximize the readibility of the files
-2. The first thing you'll want to do is check the issue's tab to see what progress has been made on the assignment. The Assignments will be labeled by homework section (i.e. HW 3 Section 3.2). Any issue that is open means that all of the **homework** problems haven't been completed. This means that if the practice problems haven't been completed, as long as the **homework** problems are done (as in, this section is ready for popular consumption), the issue will be closed or you can close it yourself. You are free to TeX up the practice problems, but those would go in a separate document and thus be a separate pdf.
-3. Once you decide what problems you want to contribute, **POST A COMMENT IN THE SECTION OF THE PROBLEMS YOU ARE WORKING ON, INDICATING THAT YOU ARE GOING TO WORK ON THOSE PROBLEMS**. I cannot stress this enough how important it is that you do this. Reason being that we do not want duplicates problems and it would just be a hassle to have to clean and such.
-4. Once the comment is posted, fork the repo from master and make **only the changes you said you'd make**.
-5. Push it up to master and create a pull request. Be sure to be pretty specific about the title and comments of the request so that people know what you're talking about/what you've done. Be sure to indicate which section your pull request by linking the issue with it (i.e. if your section was logged as issue #31, then you would type #31 somewhere in your pull request comment). Also if your commit would finish all of the homework problems in the section, tag it with the label 'hw-problems-complete'.
-6. For now, I'll manage merging the pull requests but if you want to help me out (pls send help) with reviewing pull requests and such hit me up.
-7. Rinse and repeat I guess until the file is fully TeXed.
+### Submitting Issues
+So you've noticed a problem with the TeX file. First of all--thanks for looking and finding it! The fact that you noticed means you're attentive! Go you! Next up is for you to report that issue. First you're gonna want to scroll to the top of the page and click on the issues tab. Before you click the green "New issue" button, check to make sure that an issue has not already been created for the same thing. Now that you're on the new issue creation page, the title of the issue should be as follows: 
+>> Title of Homework / Problem number
 
-Quick note--if there are any disputes and such, just try to be nice pls :)
+So, for example:
+
+>> HW03 / 3.3 #4
+
+Then in the description, go ahead and describe what the issue is with as much detail as necessary to a TeXer can fix it as soon as possible so everyone can reap the benefits! After that, click the "Submit new issue" button and you're all good to go!
+
+
+### Uploading Files
+So basically the idea is to create a platform where people can all work on making pretty math homework pdfs so that we can get them out to the people quickly. I'm still very new to GitHub so any help with optimizing this workflow would be extremely helpful. Things will more or less work like this:
+1. If you haven't already, clone the repo
+2. If you have a local version, pull from master before you submit anything
+3. Create a new branch
+4. Commit the TeX files to your branch
+5. Push your branch up to remote.
+6. Make a pull request
+7. Wait patiently for your PR to be merged
+8. If you PR is denied, find out why and make the necessary changes
+
+If none of that made sense to you, fear not, below is a very narrowly scoped tutorial of how to get your files onto this repository:
+>> TODO: write the narroly scoped tutorial. It is currently late o'clock and I still need to do lin algs T_T. For now just email me a zipped folder that includes at least both the pdf and the tex files for the homework and the hmcpset.cls and I'll push it up within a few hours of you sending me the email. 
 
 ### Formatting
-As far as formatting is concerned, check out HW02 for how things should look. That's currently the model we're using but if you think we should switch to something different feel free to let me know.
+As far as formatting is concerned, I personally don't really care how you do it as long as each problem has enough space to work with (beggars can't be choosers ya know #kanye). Check out HW02 if you are curious. That's currently the model we're using but if you think we should switch to something different feel free to let me know.
