@@ -1,0 +1,14 @@
+HW*/*.log
+HW*/*.gz
+HW*/*.aux
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.AppleDB
+.AppleDesktop
+
+# Windows
+Thumbs.db
